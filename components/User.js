@@ -25,7 +25,7 @@ const User = ({ user, deleteUser, editUser }) => {
         </a>
       </td>
     </tr>
-  );
+  ); 
 };
 
 export default User;
