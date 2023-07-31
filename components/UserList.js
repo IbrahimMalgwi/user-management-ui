@@ -19,7 +19,7 @@ const UserList = ({ user }) => {
             "Content-Type": "application/json",
           },
         });
-        const users = await response.json();
+        const users = await response.json(); 
         setUsers(users);
       } catch (error) {
         console.log(error);
